@@ -7,7 +7,11 @@ $(document).ready(function() {
 
     if (alpha === beta && beta === capa && capa === alpha){
       $("#equilateral").show();
-    }
+      } else if (alpha === beta || beta === capa || alpha === capa);
+        $("#isosceles").show();
+    
+
+
 
     console.log("hit")
 
